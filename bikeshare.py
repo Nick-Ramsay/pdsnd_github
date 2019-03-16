@@ -109,7 +109,7 @@ def time_stats(df):
         am_pm = "AM"
     else:
         am_pm = " - Error: Invalid hour. Can't derive AM vs. PM"
-    #If and elif used to populate the am_pm variable representing morning vs. evening
+    #If and elif used to populate the am_pm variable representing morning vs. evening. To be returned if script fails to derive morning vs. evening.
     print("Most common hour: "+str(standard_time)+" "+am_pm)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
