@@ -176,7 +176,7 @@ def user_stats(df):
     else:
         print("No gender data is available for this city.")
     ## Used if and else statements for gender statistics so calculations only execute when the the Gender column is in the dataframe.
-    ## Washington does not have gender data.
+    ## Washington does not have gender data, hence need to bypass "gender" when data item doesn't exit.
     ## Source for list(df): https://stackoverflow.com/questions/19482970/get-list-from-pandas-dataframe-column-headers
     print("\n")
 
