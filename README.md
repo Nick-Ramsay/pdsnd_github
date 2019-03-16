@@ -33,5 +33,5 @@ The script references three non-tracked CSV files documented in .gitignore:
   - new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The starting template for bikeshare.py was provided by Udacity. Also, the CSV files for the three cities are provided by Udacity.
 
