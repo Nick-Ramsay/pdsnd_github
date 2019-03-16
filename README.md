@@ -24,7 +24,13 @@ This project was used to conduct analysis from data gathered by a US bikeshare c
 The script also give users the ability to view five rows of data. If they choose, they can can continue viewing more rows of data, adding viewable rows in increments of five. At the end of the script, they can request to restart the script to view data with new filters applied.
 
 ### Files used
-Include the files used
+Files used include:
+  - bikeshare.py (Python Script)
+  - .gitignore (.gitignore files to not commit)
+The script references three non-tracked CSV files documented in .gitignore:
+  - washington.csv
+  - chicago.csv
+  - new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
